@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>315</title>
+	<style>
+		#container{
+			background: #dedede;
+			width: 100%;
+			height: 100%;
+		}
+		#header{
+			width: 100%;
+			height: 80px;
+			background: #333333;
+			position: relative;
+
+		}
+		#header img{
+			position: absolute;
+			width: 150px;
+			height: 50px;
+			margin: 0 auto;
+			background: #000;
+			margin-left: 50px;
+			margin-top: 10px;
+
+		}
+		#header .biaoti {
+			float: right;
+			display: block;
+			
+		}
+		#header .biaoti li {
+			float: left;
+			line-height: 55px;
+			width: 110px;
+
+		}
+		#header .biaoti li a{
+			color: #FFFFFF;
+			text-decoration: none;
+			font-size: 18px;
+		}
+
+		#nav{
+			width: 1300px;
+			background: #FFFFFF;
+			margin: 0 auto;
+			box-shadow: 2px 2px 2px #848484;
+			margin-top: 20px;
+		}
+		#nav .yiji{
+			margin: 0 auto;
+			width: 1240px;
+			padding: 25px;
+		}
+		#nav .duanluo{
+			text-indent: 2em;
+		}
+
+		#news {
+			width: 1300px;
+			background: #FFFFFF;
+			margin: 0 auto;
+			box-shadow: 2px 2px 2px #848484;
+			margin-top: 20px;
+
+		}
+		#news .erji{
+			margin: 0 auto;
+			width: 1240px;
+			padding: 25px;
+		}
+		#news .duanluo{
+			text-indent: 2em;
+		}
+		#news .liebiao{
+			list-style: none;
+			padding-top: 15px;
+			padding-left: 20px;
+		}
+		#news li{
+			padding: 5px;
+		}
+
+		#tupian{
+			width: 1300px;
+			background: #FFFFFF;
+			margin: 0 auto;
+			box-shadow: 2px 2px 2px #848484;
+			margin-top: 20px;
+		}
+		#tupian .sanji{
+			margin: 0 auto;
+			width: 1240px;
+			padding: 25px;
+		}
+		#tupian .haokan{
+			border: 1px solid black;
+			width: 200px;
+			height: 150px;
+			margin-top: 20px;
+
+		}
+		#tupian img{
+			width: 150px;
+			padding-left: 25px;
+		}
+		#tupian p{
+			text-align: center;
+		}
+		
+		#zuihouyipian{
+			width: 1300px;
+			background: #FFFFFF;
+			margin: 0 auto;
+			box-shadow: 2px 2px 2px #848484;
+			margin-top: 20px;
+		}
+		#zuihouyipian .zuihou{
+			margin: 0 auto;
+			width: 1240px;
+			padding: 25px;
+		}
+		#zuihouyipian .biaoge{
+			width: 100%;
+		}
+		#zuihouyipian .biaoge thead{
+			background: #333333;
+			font-weight: bold;
+			
+
+		}
+		#zuihouyipian .biaoge tfoot{
+			background: #cccccc
+		}
+		#zuihouyipian .biaotou{
+			text-align: left;
+		}
+
+		#celan{
+			width: 1300px;
+			background: #FFFFFF;
+			margin: 0 auto;
+			box-shadow: 2px 2px 2px #848484;
+			margin-top: 20px;
+		}
+		#celan .jiewei{
+			margin: 0 auto;
+			width: 1240px;
+			padding: 25px;
+		}
+		#celan .tianxuan{
+			padding-left: 300px;
+		}
+		#celan .yaoqiu{
+			color: #a4999d;
+			padding-left: 125px;
+		}
+		#celan .mima{
+			padding-left: 33px;
+		}
+
+		#celan .xuanze{
+			padding-left: 80px;
+		}
+		#celan .geren{
+			padding-left: 80px;
+			padding-top: 20px;
+
+		}
+		#celan .miaoshu{
+			float: left;
+		}
+		#celan .tijiao{
+			width: 1200px;
+			height: 40px;
+			background: #3355d0;
+
+			border-radius: 12px;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="header">
+		    <img src="img/baidu.gif" alt="">
+		    <ul class="biaoti">
+		    	<li><a href="">导航链接一</a></li>
+		    	<li><a href="">导航链接二</a></li>
+		    	<li><a href="">导航链接三</a></li>
+		    	<li><a href="">导航链接四</a></li>
+		    </ul>
+		</div>
+		<div id="nav">
+		    <div class="yiji">
+		    <h2>文章一级标题</h2>
+			<h4>文章二级标题</h4>
+			<p>文章作者 文章发表时间</p>
+			<p class="duanluo">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</br>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http:ife.baidu.com">这里有一个连接链接到</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+			<img src="img/kobe.jpg" alt="kobe">
+			<p class="duanluo">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</br>这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com" target="blank">这里有一个链接</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+			</div>
+			
+		</div>
+		<div id="news">
+			<div class="erji">
+				<h2>另一篇文章一级标题</h2>
+				<h4>文章二级标题</h4>
+				<p>文章作者 文章标题</p>
+				<p class="duanluo">这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</br>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com">这里有一个连接</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<strong>这里有个粗体字</strong>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，</p>
+				<img src="img/kobe.jpg" alt="kobe">
+				<ul class="liebiao">
+				<li>列表项目一</li>
+				<li>列表项目二</li>
+				<li>列表项目三</li>
+				</ul>
+				
+			</div>
+		</div>
+		<div id="tupian">
+			<div class="sanji">
+				<h2>图片</h2>
+				<div class="haokan">
+			    <p>好看的图片</p>
+					<img src="img/kobe.jpg" alt="kobe">
+				</div>
+				<div class="haokan">
+			    <p>好看的图片</p>
+					<img src="img/kobe.jpg" alt="kobe">
+				</div>
+				<div class="haokan">
+			    <p>好看的图片</p>
+					<img src="img/kobe.jpg" alt="kobe">
+				</div>
+				<div class="haokan">
+			    <p>好看的图片</p>
+					<img src="img/kobe.jpg" alt="kobe">
+				</div>
+				<div class="haokan">
+			    <p>好看的图片</p>
+					<img src="img/kobe.jpg" alt="kobe">
+				</div>
+				<div class="haokan">
+			    <p>好看的图片</p>
+					<img src="img/kobe.jpg" alt="kobe">
+				</div>
+				<div class="haokan">
+			    <p>好看的图片</p>
+					<img src="img/kobe.jpg" alt="kobe">
+				</div>
+				<div class="haokan">
+			    <p>好看的图片</p>
+					<img src="img/kobe.jpg" alt="kobe">
+				</div>
+			</div>
+		</div>
+		<div id="zuihouyipian">
+			<div class="zuihou">
+				<h2>最后一篇文章一级标题</h2>
+				<h4>文章二级标题</h4>
+				<p>文章作者 文章发表时间</p>
+				<ol>
+					<li>排名1</li>
+					<li>排名2</li>
+					<li>排名3</li>
+				</ol>
+				<table class="biaoge">
+				<thead>
+					<tr>
+					<th class="biaotou">表头</th>
+					<th class="biaotou">表头</th>
+					<th class="biaotou">表头</th>
+
+				</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+					<tr>
+						<td>表内容单元格</td>
+						<td>表内容单元格</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>总计</td>
+						<td>1000</td>
+						<td><a href="#">操作</a></td>
+					</tr>
+				</tfoot>
+
+				</table>
+				
+				
+			</div>
+		</div>
+		<div id="celan">
+			<div class="jiewei">
+				<h3>这里以后是一个侧栏，这是侧栏的标题</h3>
+				<div class="tianxuan">
+					<p>请输入邮箱地址：<input type="text" value="这是一个文本输入框"></p>
+					<p class="yaoqiu">邮箱地址请按要求格式输入</p>
+					<p class="mima">请输入密码：<input type="password" name="password" value="12345678"></p>
+					<p>请重复输入密码：<input type="password" name="password" value="12345678"></p>
+					<p class="yaoqiu">密码请输入6-16位英文数字</p>
+					<p class="xuanze">性别：<input type="radio" checked="checked" name="sex" value="male">男
+					<input type="radio" name="sex" value="female">女
+					
+					</p>
+					<p class="xuanze">城市：<select name="chengshi" id="">
+						<option value="北京">北京</option>
+						<option value="上海">上海</option>
+						<option value="苏州">苏州</option>
+					</select></p>
+					<p class="xuanze">爱好：<input type="checkbox" name="yundong">运动
+					<input type="checkbox" name="yishu">艺术
+					<input type="checkbox" name="kexue">科学
+
+					</p>
+					<p class="miaoshu">个人描述：</p>
+					<p class="geren"><textarea name="" id="" cols="100" rows="5" >这是一个多行输入框，输入对您的个人描述</textarea></p>
+					
+
+				</div>
+				<input type="submit" value="确认提交" class="tijiao">
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
